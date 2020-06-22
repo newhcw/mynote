@@ -7,7 +7,7 @@ script:
   - rm -rf .git
   - bash ./bootstrap.sh
   - git init
-  - git config user.name "huangchunwu"
+  - git config user.name "newhcw"
   - git config user.email "951123033@qq.com"
   - git add .
   - git commit -m "update note"

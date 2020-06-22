@@ -11,4 +11,7 @@ script:
   - git config user.email "951123033@qq.com"
   - git add .
   - git commit -m "update note"
-  - git push --force https://github.com/newhcw/newhcw.github.io.git master
+  - git push --force https://$TOKEN@github.com/newhcw/newhcw.github.io.git master
+env:
+  global:
+    secure:eZbamhXKXbjCYEEd6quzvMxfuIP6QY858qkese3gIN1

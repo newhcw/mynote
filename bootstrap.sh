@@ -27,4 +27,4 @@ do
   trans $i
 done
 h=`find . -name '*.html' | xargs ls -tr`
-node ./a.js $h
+node ./init.js $h

@@ -11,8 +11,8 @@ script:
   - git config user.email "951123033@qq.com"
   - git add .
   - git commit -m "update note"
-  - git push --force https://git@github.com:newhcw/newhcw.github.io.git master
+  - git push --force --quiet "https://${TOKEN}@${GH_REF}" master:master
  
 env:
   global:
-     secure: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8Qx10ikuVKVrRRDjfounUuJXk/Qiq4wQvSmvlEOJamTBznRWhzXtdPSwXqoqo1JRAgx6a4pluPANjrKJeCZD9PSZysJKpSPWgseFBN3aq2H2xUEaioAdQFbLF9/LcTGS3exckwqQVeL4e2wwmbEiAwYgL3P5+IJAPRnZzeUcGwHseR17eeAfm7WsKMcVg2PNGwCEDH0igc2x5BpIkL4qpdK0fOrPqbcx1ylzaUTjxZOKLUahVL6LIXC/SXBEQRw6FGWjMHbNHcSd+8MKWMf6QhgXuYyPS7oh0D7V2my4z/SPvdY36sEg2aD/gIzzHw/AQBR9mFQyc2CV4DvtNuuqx 951123033@qq.com"
+     - GH_REF: github.com/newhcw/newhcw.github.io.git

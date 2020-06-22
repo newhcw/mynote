@@ -1,7 +1,15 @@
-deploy:
-  provider: pages
-  skip_cleanup: true
-  #github_token: $GITHUB_TOKEN  
-  keep_history: true
-  on:
-    branch: master
+language: node_js
+node_js: 
+  - "10"
+before_script:
+  - npm i -g github-markdown
+script: 
+  - rm -rf .git
+  - bash ./bootstrap.sh
+  - git init
+  - git config user.name "huangchunwu"
+  - git config user.email "951123033@qq.com"
+  - git add .
+  - git commit -m "update note"
+  - git push --force https://$TOKEN@github.com/newhcw/newhcw.github.io.git master
+

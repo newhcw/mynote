@@ -16,7 +16,6 @@ script:
 env:
   global:
      - GH_REF: github.com/newhcw/newhcw.github.io.git
-	
 notifications:
   webhooks: ${webhooks}
 

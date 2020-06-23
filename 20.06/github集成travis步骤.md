@@ -1,5 +1,5 @@
 ## 概述
-  
+
    github，一个免费的代码托管平台，非常香。
 
    travis，一个CI工具，`continue and integration` ，中文意思，持续集成，换句话说，就是帮忙构建代码，测试代码，最后编译成交付的文件。比如Java编译成jar可执行文件，android编译成apk。
@@ -45,14 +45,14 @@ notifications:
 ```
 
 我们可以把隐私的信息，配置在traivs的全局变量里面，如下：
-![GitHub Logo](/images/traivssetting.png)
+![GitHub Logo](images/traivssetting.png)
 
 其中${TOKEN}是从github获取用来git push代码用的
 
-![GitHub Logo](/images/settingsecret.png)
+![GitHub Logo](images/settingsecret.png)
 
 ${webhooks}设置的是钉钉集成travis的机器人的callbackurl，从钉钉群设置获取。
-![GitHub Logo](/images/dingsetting.png)
+![GitHub Logo](images/dingsetting.png)
 
 其他部分，是一些脚本的编写，直接看源码了，
 这样就CI集成好了。

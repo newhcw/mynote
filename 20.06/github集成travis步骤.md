@@ -14,10 +14,10 @@
 在github创建一个md仓库，仓库名字为mynote
 ### 2、在github设置traivs CI
 setting->Integrations
-![GitHub Logo](/images/traivs.png)
+![GitHub Logo](https://github.com/newhcw/images/blob/master/traivs.png)
 ### 3、导入仓库到traivs
 ### 4、进入traivs设置仓库
-![GitHub Logo](/images/traivs-web.png)
+![GitHub Logo](https://github.com/newhcw/images/blob/master/traivs-web.png)
 ### 5、下载代码，编写.traivs.yml文件
 ```yaml
 language: node_js
@@ -45,14 +45,14 @@ notifications:
 ```
 
 我们可以把隐私的信息，配置在traivs的全局变量里面，如下：
-![GitHub Logo](images/traivssetting.png)
+![GitHub Logo](https://github.com/newhcw/images/blob/master/traivssetting.png)
 
 其中${TOKEN}是从github获取用来git push代码用的
 
-![GitHub Logo](images/settingsecret.png)
+![GitHub Logo](https://github.com/newhcw/images/blob/master/settingsecret.png)
 
 ${webhooks}设置的是钉钉集成travis的机器人的callbackurl，从钉钉群设置获取。
-![GitHub Logo](images/dingsetting.png)
+![GitHub Logo](https://github.com/newhcw/images/blob/master/dingsetting.png)
 
 其他部分，是一些脚本的编写，直接看源码了，
 这样就CI集成好了。

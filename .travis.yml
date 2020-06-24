@@ -17,7 +17,7 @@ env:
   global:
      - GH_REF: github.com/newhcw/newhcw.github.io.git
 notifications:
-  webhooks: ${webhooks}
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=3ea2cb84a09ef03881b3842a600fe9f9aadabf9b439fc5490533de52569860db
 
 
 

@@ -45,14 +45,14 @@ notifications:
 ```
 
 我们可以把隐私的信息，配置在traivs的全局变量里面，如下：
-![GitHub Logo](https://github.com/newhcw/images/blob/master/traivssetting.png)
+![GitHub Logo](https://newhcw.github.io/images/traivssetting.png)
 
 其中${TOKEN}是从github获取用来git push代码用的
 
-![GitHub Logo](https://github.com/newhcw/images/blob/master/settingsecret.png)
+![GitHub Logo](https://newhcw.github.io/images/settingsecret.png)
 
 ${webhooks}设置的是钉钉集成travis的机器人的callbackurl，从钉钉群设置获取。
-![GitHub Logo](https://github.com/newhcw/images/blob/master/dingsetting.png)
+![GitHub Logo](https://newhcw.github.io/images/dingsetting.png)
 
 其他部分，是一些脚本的编写，直接看源码了，
 这样就CI集成好了。

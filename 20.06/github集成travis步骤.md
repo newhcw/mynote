@@ -14,10 +14,10 @@
 在github创建一个md仓库，仓库名字为mynote
 ### 2、在github设置traivs CI
 setting->Integrations
-![GitHub Logo](/images/traivs.png)
+![GitHub Logo](images/traivs.png)
 ### 3、导入仓库到traivs
 ### 4、进入traivs设置仓库
-![GitHub Logo](/images/traivs-web.png)
+![GitHub Logo](images/traivs-web.png)
 ### 5、下载代码，编写.traivs.yml文件
 ```yaml
 language: node_js

@@ -1,4 +1,4 @@
- # habase应用访问满，hbase shell查询快
+ # habase应用查询慢，hbase shell查询快
 
 ## 问题现象
 

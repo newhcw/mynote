@@ -74,3 +74,12 @@ long epochMilli1 = localDateTime.toInstant(ZoneOffset.ofHours(8)).toEpochMilli()
 long epochMilli2 = localDateTime.toInstant(ZoneOffset.of("+08:00")).toEpochMilli();// 写法 2
 long epochMilli3 =  localDateTime.atZone(ZoneId.systemDefault()).toInstant().toEpochMilli();// 写法 3
 ```
+
+## 8、计算日期之差
+
+```java
+LocalDate localDate = LocalDate.now();
+LocalDate localDate1 = LocalDate.of(2020, 1, 30);
+System.out.println(localDate.until(localDate1, ChronoUnit.DAYS));// 方法一:后面日期大于前面
+System.out.println(localDate1.toEpochDay()-localDate.toEpochDay());// 方法二:后面日期大于前面
+```

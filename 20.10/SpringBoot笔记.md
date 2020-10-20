@@ -14,7 +14,7 @@ spring提供了aop和ioc，提供了开发的边界，可是有很多的配置�
 
 集成了tomcat,Jetty等web容器，方便启动项目。
 
-SpringBoot  Actuator 提供了指标，方便了运维监控。
+SpringBoot Actuator 提供了指标，方便了运维监控。
 
 ## SpringBoot核心注解有哪些？主要是哪些注解组成？
 
@@ -23,4 +23,3 @@ SpringBoot  Actuator 提供了指标，方便了运维监控。
 @Configuration 注解的类是一个Javaconfig类，实现了非xml的ioc容器类。
 
 @EnableAutoConfiguration是自动配置的核心类，配合@import导入配置类，借助springfactoryLoader 扫描META-INFO/spring.factories里面配置的组件类和listener，再注入到spring的ApplicationContext的容器内。
-

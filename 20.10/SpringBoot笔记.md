@@ -1,5 +1,7 @@
 # SpringBoot 笔记
 
+
+
 ## 什么是SpringBoot
 
 spring提供了aop和ioc，提供了开发的边界，可是有很多的配置文件，还得依赖很多的pom文件，需要解决依赖版本冲突问题。SpringBoot解决了这些问题，提出了“自动配置”,”起步依赖“二个功能。另外，SpringBoot发布，部署，运维都更方便了。SpringBoot提供了jar包运行，可以部署到docker容器，云平台发布，提供了Spring Boot Actuator模块，提供了应用一些指标的监控。
